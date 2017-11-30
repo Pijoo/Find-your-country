@@ -23,5 +23,5 @@ function showCountriesList(resp) {
 	countriesList.empty();
 	resp.forEach(function(item){
 		$('<li>').text(item.name + ' - capital: ' + item.capital + '; area: ' + item.area + ' sq. km'+'; number of inhabitants: ' + item.population + '.').appendTo(countriesList);
-});
+	});
 }
